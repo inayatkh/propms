@@ -1,0 +1,462 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"SkiEHuZ-t5\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\" style=\\\"\\\">Property Management System</span>\",\"col\":12}},{\"id\":\"9NDZqbKbax\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b></b></span><span class=\\\"h2\\\">Reports and Analytics</span>\",\"col\":12}},{\"id\":\"kvu894Wq0I\",\"type\":\"card\",\"data\":{\"card_name\":\"Outsourcing Attendance\",\"col\":4}},{\"id\":\"4iKtNP93bl\",\"type\":\"card\",\"data\":{\"card_name\":\"Security Attendance\",\"col\":4}},{\"id\":\"UAUaMAfG2Z\",\"type\":\"card\",\"data\":{\"card_name\":\"Security Deposit\",\"col\":4}},{\"id\":\"00yK8T2S8g\",\"type\":\"card\",\"data\":{\"card_name\":\"Debtors Report\",\"col\":4}},{\"id\":\"ukKU-HTHcw\",\"type\":\"card\",\"data\":{\"card_name\":\"Creditors Report\",\"col\":4}},{\"id\":\"H1B_4MzPzW\",\"type\":\"card\",\"data\":{\"card_name\":\"Property Status\",\"col\":4}},{\"id\":\"_hI4xCNnsb\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Masters</b></span>\",\"col\":12}},{\"id\":\"nLLtA7stb0\",\"type\":\"card\",\"data\":{\"card_name\":\"Properties\",\"col\":4}},{\"id\":\"DFRhQYOUeS\",\"type\":\"card\",\"data\":{\"card_name\":\"Unit Type\",\"col\":4}},{\"id\":\"HgAwHJuEhM\",\"type\":\"card\",\"data\":{\"card_name\":\"Checkup Area\",\"col\":4}},{\"id\":\"B_ZG_HvUNh\",\"type\":\"card\",\"data\":{\"card_name\":\"Guard Shift\",\"col\":4}},{\"id\":\"zfU0J4qZ0k\",\"type\":\"card\",\"data\":{\"card_name\":\"Key Set\",\"col\":4}},{\"id\":\"FBkpQJlzKG\",\"type\":\"card\",\"data\":{\"card_name\":\"Tool Item Set\",\"col\":4}},{\"id\":\"Zzcwl_vJMA\",\"type\":\"card\",\"data\":{\"card_name\":\"Oursource Category\",\"col\":4}},{\"id\":\"krg8VnpB9j\",\"type\":\"card\",\"data\":{\"card_name\":\"Property Amenity\",\"col\":4}},{\"id\":\"Z6ohyo43Ny\",\"type\":\"card\",\"data\":{\"card_name\":\"Meter\",\"col\":4}},{\"id\":\"wOZVvFQq32\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Documents<b></b></span>\",\"col\":12}},{\"id\":\"pfPsnFzk_R\",\"type\":\"card\",\"data\":{\"card_name\":\"Lease\",\"col\":4}},{\"id\":\"8Iwmv4dhV2\",\"type\":\"card\",\"data\":{\"card_name\":\"Keys Sets\",\"col\":4}},{\"id\":\"XUz4vqKSzL\",\"type\":\"card\",\"data\":{\"card_name\":\"Tool Item Record\",\"col\":4}},{\"id\":\"wvl-I4HeWo\",\"type\":\"card\",\"data\":{\"card_name\":\"Daily Checklist\",\"col\":4}},{\"id\":\"LictY3b2D8\",\"type\":\"card\",\"data\":{\"card_name\":\"Exit\",\"col\":4}},{\"id\":\"HmfXQihZjE\",\"type\":\"card\",\"data\":{\"card_name\":\"Meter Reading\",\"col\":4}},{\"id\":\"PvLF4iChb3\",\"type\":\"card\",\"data\":{\"card_name\":\"Insurance\",\"col\":4}},{\"id\":\"PVyk5a1z21\",\"type\":\"card\",\"data\":{\"card_name\":\"Outsourcing Attendance\",\"col\":4}},{\"id\":\"A634V6pjsl\",\"type\":\"card\",\"data\":{\"card_name\":\"Security Attendance\",\"col\":4}},{\"id\":\"lI0xF3w77I\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Settings<b></b></span>\",\"col\":12}},{\"id\":\"QZ_G195PjH\",\"type\":\"card\",\"data\":{\"card_name\":\"Property Management Settings\",\"col\":4}}]",
+ "creation": "2023-10-02 13:05:52.002190",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Robionix Property MS",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Unit Type",
+   "link_count": 1,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Unit Type",
+   "link_count": 0,
+   "link_to": "Unit Type",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Checkup Area",
+   "link_count": 1,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Checklist Checkup Area",
+   "link_count": 0,
+   "link_to": "Checklist Checkup Area",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Guard Shift",
+   "link_count": 1,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Guard Shift",
+   "link_count": 0,
+   "link_to": "Guard Shift",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Key Set",
+   "link_count": 1,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Key Set",
+   "link_count": 0,
+   "link_to": "Key Set",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Tool Item Set",
+   "link_count": 1,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Tool Item Set",
+   "link_count": 0,
+   "link_to": "Tool Item Set",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Oursource Category",
+   "link_count": 1,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Outsourcing Category",
+   "link_count": 0,
+   "link_to": "Outsourcing Category",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Property Amenity",
+   "link_count": 1,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Property Amenity",
+   "link_count": 0,
+   "link_to": "Property Amenity",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Properties",
+   "link_count": 1,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Property",
+   "link_count": 0,
+   "link_to": "Property",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Meter",
+   "link_count": 1,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Meter",
+   "link_count": 0,
+   "link_to": "Meter",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Lease",
+   "link_count": 1,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Lease",
+   "link_count": 0,
+   "link_to": "Lease",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Keys Sets",
+   "link_count": 1,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Key Set Detail",
+   "link_count": 0,
+   "link_to": "Key Set Detail",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Tool Item Record",
+   "link_count": 1,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Tool Item Record",
+   "link_count": 0,
+   "link_to": "Tool Item Record",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Daily Checklist",
+   "link_count": 2,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Daily Checklist",
+   "link_count": 0,
+   "link_to": "Daily Checklist",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Daily Checklist Detail",
+   "link_count": 0,
+   "link_to": "Daily Checklist Detail",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Exit",
+   "link_count": 1,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Exit",
+   "link_count": 0,
+   "link_to": "Exit",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Meter Reading",
+   "link_count": 2,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Property Meter Reading",
+   "link_count": 0,
+   "link_to": "Property Meter Reading",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Meter Reading",
+   "link_count": 0,
+   "link_to": "Meter Reading",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Insurance",
+   "link_count": 1,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Insurance",
+   "link_count": 0,
+   "link_to": "Insurance",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Outsourcing Attendance",
+   "link_count": 1,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Outsourcing Attendance",
+   "link_count": 0,
+   "link_to": "Outsourcing Attendance",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Property Management Settings",
+   "link_count": 1,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Property Management Settings",
+   "link_count": 0,
+   "link_to": "Property Management Settings",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Security Attendance",
+   "link_count": 1,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Security Attendance Report",
+   "link_count": 0,
+   "link_to": "Security Attendance Report",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Security Deposit",
+   "link_count": 1,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Security Deposit",
+   "link_count": 0,
+   "link_to": "Security Deposit",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Debtors Report",
+   "link_count": 1,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Debtors Report",
+   "link_count": 0,
+   "link_to": "Debtors Report",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Creditors Report",
+   "link_count": 1,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Creditors Report",
+   "link_count": 0,
+   "link_to": "Creditors Report",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Property Status",
+   "link_count": 1,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Property Status",
+   "link_count": 0,
+   "link_to": "Property Status",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2023-10-02 16:18:25.486197",
+ "modified_by": "Administrator",
+ "module": "Property Management Solution",
+ "name": "Robionix Property MS",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 23.0,
+ "shortcuts": [],
+ "title": "Robionix Property MS"
+}

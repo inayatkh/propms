@@ -1,0 +1,130 @@
+{
+ "actions": [],
+ "autoname": "LIS.#####",
+ "creation": "2019-02-01 14:07:00.154448",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "date_to_invoice",
+  "schedule_start_date",
+  "lease_item",
+  "paid_by",
+  "lease_item_name",
+  "document_type",
+  "invoice_number",
+  "sales_order_number",
+  "qty",
+  "rate",
+  "currency",
+  "tax",
+  "invoice_item_group"
+ ],
+ "fields": [
+  {
+   "columns": 2,
+   "fieldname": "date_to_invoice",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date to invoice",
+   "options": "Lease"
+  },
+  {
+   "columns": 3,
+   "fieldname": "lease_item",
+   "fieldtype": "Link",
+   "label": "Lease Item",
+   "options": "Item"
+  },
+  {
+   "columns": 2,
+   "fieldname": "paid_by",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Paid By",
+   "options": "Customer",
+   "read_only": 1
+  },
+  {
+   "columns": 2,
+   "fieldname": "lease_item_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Lease Item Name",
+   "read_only": 1
+  },
+  {
+   "columns": 2,
+   "fieldname": "invoice_number",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Invoice Number",
+   "options": "Sales Invoice"
+  },
+  {
+   "columns": 1,
+   "fieldname": "qty",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Qty"
+  },
+  {
+   "columns": 1,
+   "fieldname": "rate",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Rate",
+   "options": "currency"
+  },
+  {
+   "fieldname": "currency",
+   "fieldtype": "Link",
+   "label": "Currency",
+   "options": "Currency",
+   "read_only": 1
+  },
+  {
+   "columns": 1,
+   "fieldname": "tax",
+   "fieldtype": "Percent",
+   "in_list_view": 1,
+   "label": "Tax",
+   "read_only": 1
+  },
+  {
+   "fieldname": "schedule_start_date",
+   "fieldtype": "Date",
+   "label": "Schedule Start Date",
+   "read_only": 1
+  },
+  {
+   "fieldname": "invoice_item_group",
+   "fieldtype": "Select",
+   "label": "Invoice Item Group",
+   "options": "1\n2\n3"
+  },
+  {
+   "fieldname": "sales_order_number",
+   "fieldtype": "Link",
+   "label": "Sales Order Number",
+   "options": "Sales Order"
+  },
+  {
+   "fieldname": "document_type",
+   "fieldtype": "Select",
+   "label": "Document Type",
+   "options": "\nSales Invoice\nSales Order"
+  }
+ ],
+ "istable": 1,
+ "links": [],
+ "modified": "2022-05-28 15:13:40.233162",
+ "modified_by": "Administrator",
+ "module": "Property Management Solution",
+ "name": "Lease Invoice Schedule",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

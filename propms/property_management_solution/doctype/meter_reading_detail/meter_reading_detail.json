@@ -1,0 +1,93 @@
+{
+ "creation": "2019-04-08 13:01:58.226727",
+ "doctype": "DocType",
+ "document_type": "Document",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "property",
+  "meter_number",
+  "previous_meter_reading",
+  "current_meter_reading",
+  "reading_difference",
+  "previous_reading_date",
+  "do_not_create_invoice",
+  "invoice_number"
+ ],
+ "fields": [
+  {
+   "columns": 2,
+   "fieldname": "property",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Property",
+   "options": "Property",
+   "reqd": 1
+  },
+  {
+   "columns": 2,
+   "fieldname": "meter_number",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Meter Number",
+   "options": "Meter",
+   "read_only": 1
+  },
+  {
+   "columns": 2,
+   "default": "0",
+   "fieldname": "previous_meter_reading",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Previous Meter Reading",
+   "read_only": 1
+  },
+  {
+   "columns": 2,
+   "fieldname": "current_meter_reading",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Current Meter Reading",
+   "reqd": 1
+  },
+  {
+   "columns": 1,
+   "fieldname": "reading_difference",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Reading Difference",
+   "read_only": 1
+  },
+  {
+   "fieldname": "previous_reading_date",
+   "fieldtype": "Date",
+   "label": "Previous Reading Date",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "do_not_create_invoice",
+   "fieldtype": "Check",
+   "label": "Do not create invoice"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "invoice_number",
+   "fieldtype": "Link",
+   "label": "Invoice number",
+   "options": "Sales Invoice",
+   "read_only": 1
+  }
+ ],
+ "istable": 1,
+ "modified": "2020-11-06 22:13:55.717334",
+ "modified_by": "info@aakvatech.com",
+ "module": "Property Management Solution",
+ "name": "Meter Reading Detail",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "ASC",
+ "track_changes": 1
+}

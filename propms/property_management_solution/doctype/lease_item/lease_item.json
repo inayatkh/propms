@@ -1,0 +1,108 @@
+{
+ "actions": [],
+ "autoname": "LI.#####",
+ "creation": "2018-05-01 22:14:35.767947",
+ "description": "Percentage of Witholding tax applicable to this item",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "lease_item",
+  "frequency",
+  "amount",
+  "currency_code",
+  "charge_basis",
+  "charge_rate",
+  "witholding_tax",
+  "paid_by",
+  "invoice_item_group",
+  "document_type"
+ ],
+ "fields": [
+  {
+   "columns": 2,
+   "fieldname": "lease_item",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Lease Item",
+   "options": "Item"
+  },
+  {
+   "columns": 1,
+   "fieldname": "frequency",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Frequency",
+   "options": "Monthly\nBi-Monthly\nQuarterly\nAnnually\n6 months"
+  },
+  {
+   "columns": 1,
+   "fieldname": "amount",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Amount",
+   "options": "currency_code"
+  },
+  {
+   "columns": 1,
+   "default": "USD",
+   "fieldname": "currency_code",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Currency Code",
+   "options": "Currency"
+  },
+  {
+   "fieldname": "charge_basis",
+   "fieldtype": "Select",
+   "label": "Charge basis",
+   "options": "\nBuilt-up Area\nCarpet Area"
+  },
+  {
+   "fieldname": "charge_rate",
+   "fieldtype": "Data",
+   "label": "Charge Rate"
+  },
+  {
+   "columns": 1,
+   "fieldname": "witholding_tax",
+   "fieldtype": "Percent",
+   "in_list_view": 1,
+   "label": "Witholding Tax"
+  },
+  {
+   "columns": 2,
+   "fieldname": "paid_by",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Paid By",
+   "options": "Customer"
+  },
+  {
+   "fieldname": "invoice_item_group",
+   "fieldtype": "Select",
+   "label": "Invoice Item Group",
+   "options": "1\n2\n3"
+  },
+  {
+   "default": "Sales Invoice",
+   "fieldname": "document_type",
+   "fieldtype": "Select",
+   "label": "Document Type",
+   "options": "Sales Invoice\nSales Order",
+   "reqd": 1
+  }
+ ],
+ "istable": 1,
+ "links": [],
+ "modified": "2022-06-20 17:25:38.629178",
+ "modified_by": "Administrator",
+ "module": "Property Management Solution",
+ "name": "Lease Item",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

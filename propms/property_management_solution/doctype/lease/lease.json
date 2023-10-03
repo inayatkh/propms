@@ -1,0 +1,357 @@
+{
+ "allow_import": 1,
+ "autoname": "format:{property}-{#####}",
+ "creation": "2018-05-01 22:11:38.457329",
+ "doctype": "DocType",
+ "document_type": "Document",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "lease_basic_info_section",
+  "company",
+  "property",
+  "column_break_4",
+  "lease_date",
+  "lease_status",
+  "document_reminders_section",
+  "signed_agreement_received",
+  "column_break_1",
+  "stamp_duty_paid_by_tenant",
+  "lease_parties_section",
+  "property_owner",
+  "lease_customer",
+  "column_break_8",
+  "customer",
+  "property_user",
+  "lease_dates_section",
+  "start_date",
+  "column_break_13",
+  "end_date",
+  "frequency",
+  "lease_item_table_section",
+  "lease_item",
+  "section_break_11",
+  "lease_invoice_schedule",
+  "section_break_13",
+  "days_to_invoice_in_advance",
+  "notice_period",
+  "column_break_23",
+  "fit_out_period",
+  "security_deposit_details_section",
+  "security_deposit_currency",
+  "security_deposit",
+  "security_status",
+  "column_break_27",
+  "security_received_payment",
+  "security_returned_reference",
+  "other_lease_details_section",
+  "late_payment_interest_percentage",
+  "wtax_paid_by",
+  "column_break_34",
+  "witness_2",
+  "witness_1",
+  "section_break_36",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "lease_basic_info_section",
+   "fieldtype": "Section Break",
+   "label": "Lease Basic info"
+  },
+  {
+   "fetch_from": "property.company",
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company"
+  },
+  {
+   "fieldname": "property",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Property",
+   "options": "Property",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "Today",
+   "fieldname": "lease_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Lease Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "document_reminders_section",
+   "fieldtype": "Section Break",
+   "label": "Document Reminders"
+  },
+  {
+   "default": "0",
+   "fieldname": "signed_agreement_received",
+   "fieldtype": "Check",
+   "label": "Signed agreement received"
+  },
+  {
+   "fieldname": "column_break_1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "stamp_duty_paid_by_tenant",
+   "fieldtype": "Check",
+   "label": "Stamp duty paid by tenant"
+  },
+  {
+   "fieldname": "lease_parties_section",
+   "fieldtype": "Section Break",
+   "label": "Lease Parties"
+  },
+  {
+   "fieldname": "property_owner",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Property Owner",
+   "options": "Customer",
+   "read_only": 1
+  },
+  {
+   "fieldname": "lease_customer",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Lease Customer",
+   "options": "Customer",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_8",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "customer",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "POS Customer",
+   "options": "Customer",
+   "reqd": 1
+  },
+  {
+   "fieldname": "property_user",
+   "fieldtype": "Link",
+   "label": "Property User",
+   "options": "Contact"
+  },
+  {
+   "fieldname": "lease_dates_section",
+   "fieldtype": "Section Break",
+   "label": "Lease Dates"
+  },
+  {
+   "fieldname": "start_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Start Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_13",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "end_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "End Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "frequency",
+   "fieldtype": "Select",
+   "hidden": 1,
+   "label": "Frequency",
+   "options": "Monthly\nBi-Monthly\nQuarterly\nAnnually\n6 months"
+  },
+  {
+   "fieldname": "lease_item_table_section",
+   "fieldtype": "Section Break",
+   "label": "Lease Item Table"
+  },
+  {
+   "fieldname": "lease_item",
+   "fieldtype": "Table",
+   "label": "Lease Item",
+   "options": "Lease Item",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_11",
+   "fieldtype": "Section Break",
+   "label": "Invoice Schedule"
+  },
+  {
+   "fieldname": "lease_invoice_schedule",
+   "fieldtype": "Table",
+   "label": "Lease Invoice Schedule",
+   "options": "Lease Invoice Schedule"
+  },
+  {
+   "fieldname": "section_break_13",
+   "fieldtype": "Section Break"
+  },
+  {
+   "description": "No. of Days",
+   "fieldname": "notice_period",
+   "fieldtype": "Int",
+   "label": "Notice Period",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_23",
+   "fieldtype": "Column Break"
+  },
+  {
+   "description": "No. of Days",
+   "fieldname": "fit_out_period",
+   "fieldtype": "Int",
+   "label": "Fit out Period"
+  },
+  {
+   "fieldname": "security_deposit_details_section",
+   "fieldtype": "Section Break",
+   "label": "Security Deposit Details"
+  },
+  {
+   "default": "USD",
+   "fieldname": "security_deposit_currency",
+   "fieldtype": "Link",
+   "label": "Security Deposit Currency",
+   "options": "Currency",
+   "reqd": 1
+  },
+  {
+   "description": "Security Deposit Amount",
+   "fieldname": "security_deposit",
+   "fieldtype": "Currency",
+   "label": "Security deposit",
+   "options": "security_deposit_currency",
+   "reqd": 1
+  },
+  {
+   "fieldname": "security_status",
+   "fieldtype": "Select",
+   "label": "Security Status",
+   "options": "\nProforma Invoice raised\nReceived\nReceived in part\nReturn in part\nReturned\nRecovered for rent\nRecovered for repairs\nNot required"
+  },
+  {
+   "fieldname": "column_break_27",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "security_received_payment",
+   "fieldtype": "Link",
+   "label": "Final Security Received Payment",
+   "options": "Payment Entry"
+  },
+  {
+   "fieldname": "security_returned_reference",
+   "fieldtype": "Link",
+   "label": "Final Security Returned Reference",
+   "options": "Payment Entry"
+  },
+  {
+   "fieldname": "other_lease_details_section",
+   "fieldtype": "Section Break",
+   "label": "Other lease details"
+  },
+  {
+   "fieldname": "late_payment_interest_percentage",
+   "fieldtype": "Percent",
+   "label": "Late payment interest percentage"
+  },
+  {
+   "fieldname": "wtax_paid_by",
+   "fieldtype": "Select",
+   "label": "WTax paid by",
+   "options": "By Lessee\nOn behalf of lessee by Landlord\nBy Landlord"
+  },
+  {
+   "fieldname": "column_break_34",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "witness_2",
+   "fieldtype": "Link",
+   "label": "Witness 2",
+   "options": "Contact"
+  },
+  {
+   "fieldname": "witness_1",
+   "fieldtype": "Link",
+   "label": "Witness 1",
+   "options": "Contact"
+  },
+  {
+   "fieldname": "section_break_36",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Lease",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "days_to_invoice_in_advance",
+   "fieldtype": "Int",
+   "label": "Days to invoice in advance"
+  },
+  {
+   "fieldname": "lease_status",
+   "fieldtype": "Select",
+   "label": "Lease Status",
+   "options": "\nActive\nClosed\nNot Materialized\nRenewal to Previous Lease\nAdendum to Previous Lease\nVacating"
+  }
+ ],
+ "modified": "2021-06-09 17:20:19.067591",
+ "modified_by": "Administrator",
+ "module": "Property Management Solution",
+ "name": "Lease",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Property Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
