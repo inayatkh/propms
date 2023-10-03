@@ -66,6 +66,9 @@ doctype_js = {
 
 # before_install = "propms.install.before_install"
 # after_install = "propms.install.after_install"
+after_install = "propms.setup.post_install.post_install"
+
+before_install = "propms.setup.pre_uninstall.pre_uninstall"
 
 # Desk Notifications
 # ------------------
